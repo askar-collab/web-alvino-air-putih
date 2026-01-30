@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #e6f7ff;
+}
+
+header {
+    background: #0099cc;
+    color: white;
+    padding: 20px;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.produk {
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 20px;
+    border: none;
+    background: #0099cc;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0077aa;
+}
+
+footer {
+    background: #003344;
+    color: white;
+    padding: 10px;
+}
